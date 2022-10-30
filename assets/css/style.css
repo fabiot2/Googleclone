@@ -1,3 +1,9 @@
+:root {
+    --font-color-main: #000000;
+    --google__color-white: #ffffff;
+    --google__color-alt: #F0F0F0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,15 +20,58 @@ body {
 }
 
 a {
+    font-size: 1.4rem;
     text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
-    max-height: 24rem;
-    text-align: right;
+    width: 100vw;
+    height: 7rem;
 }
 
-header nav ul li{
-    display: inline-block;
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
 }
 
+header nav .nav__header-right {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav__header-right a {
+    font-size: 1.3rem;
+    margin-right: 1.9rem;
+    color: var(--font-color-main);
+
+}
+
+header nav .nav__header-right .menu__icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+
+header nav .nav__header-right .menu__icon:hover {
+    background-color:   var(--google__color-alt);
+    border-radius: 50%;
+}
+
+header nav .nav__header-right li img {
+    width: 3.7rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
