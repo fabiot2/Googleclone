@@ -13,6 +13,16 @@ body {
     font-size: 1.6rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     max-height: 24rem;
+    text-align: right;
 }
+
+header nav ul li{
+    display: inline-block;
+}
+
