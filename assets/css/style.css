@@ -10,5 +10,35 @@ html {
 
 body {
     min-width: 32rem;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    max-width: 100vw;
+    height: 6.4rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    width: 25rem;
+    height: 6.4rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul a {
+    margin-right: 1rem;
+    color: #000000;
+
 }
