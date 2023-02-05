@@ -20,5 +20,28 @@ main {
 
 .main__logo {
     width: 30rem;
-    margin: 22rem auto 0 auto;
+    margin: 22rem auto 2.2rem auto;
+}
+
+.main__input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+.main__input__container {
+    width: 52.5rem;
+    height: 5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__input__container input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
 }
