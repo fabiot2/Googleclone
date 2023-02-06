@@ -12,3 +12,15 @@ body {
     min-width: 32rem;
     font-size: 1.6rem;
 }
+
+.footer-first {
+    display: block;
+    padding: 1.5rem 2.7rem;
+    color: #70757a;
+    background-color: ;
+    border-bottom: 0.1rem solid #dadce0;
+}
+
+.footer-second {
+
+}
