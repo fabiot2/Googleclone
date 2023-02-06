@@ -155,4 +155,37 @@ main {
 .main__buttons div button:hover {
     border: 0.1rem solid #c6c6c6;
     box-shadow: 0 0.1rem 0.1rem #000001b4;
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+}
+
+.footer-first {
+    display: block;
+    padding: 1.5rem 2.7rem;
+    color: #70757a;
+    background-color: #f2f2f2;
+    border-bottom: 0.1rem solid #dadce0;
+}
+
+.footer-second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-second ul {
+    width: auto;
+}
+
+.footer-second ul li{
+    display: inline-block;
+ }
+
+.footer-second ul li a{
+   display: inline-block;
+   padding: 1.5rem 2.7rem;
+   color: #70757a;
 }
